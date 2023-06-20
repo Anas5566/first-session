@@ -8,23 +8,23 @@
 </head>
 
 <body>
+    <div class="contaner">
     <form>
-        <div class="background">
         <h1 >Payment Form</h1>
-        </div>
-        <h2 style="color: blue;">Contact Information</h2>
-        <p>Name:<input type="text" name="name" required> </p>
+        <h2>Contact Information</h2>
+        <p>Name:<input type="text" name="name" placeholder="Enter your Name" required > </p>
+        <p>
         <fieldset>
             <legend>Gender</legend>
-             <p>
-              male <input type="radio" name="Gender" id=""> female <input type="radio" name="Gender" id="Gender" required>
-           </p>
+              male <input name="Gender" type="radio" id="Gender"> female <input name="Gender" type="radio" id="Gender" required>
        </fieldset>
+        </p>
        <p>
-        Address: <textarea name="Address" id="" cols="100" rows="8"></textarea>
+        Address:
+         <textarea name="Address" id="Address" cols="100" rows="8" placeholder="Enter your Address...." required></textarea>
        </p>
-       <p>Email: <input type="email" name="email" id="email" required></p>
-       <p>Pincode: <input type="pincode" name="pincode" id="pincode" required></p>
+       <p>Email: <input type="email" name="email" id="email" placeholder="Enter your Email" required></p>
+       <p>Pincode: <input type="number" name="number" id="pincode" placeholder="Enter your pincode" required></p>
        <h2>Payment Information</h2>
        <p>Card Type:
         <select name="Card Type" id="card type" required>
@@ -35,15 +35,16 @@
         </select>
        </p>
        <p>
-        Caerd Number:<input type="number" id="number" required>
+        Caerd Number:<input type="number" id="number" placeholder="Enter your card number" required>
        </p>
        <p>
-        Expiry date:<input type="exp_date" id="exp_date" required>
+        Expiry date:<input type="date" id="exp_date" placeholder="exp_date" required>
        </p>
        <p>
-        cvv: <input type="number" id="number">
+        cvv: <input type="number" id="number" placeholder="Enter your cvv" required>
        </p>
        <input type="submit" value="Pay Now" id="Pay Now">
     </form>
+    </div>
 </body>
 </html>
