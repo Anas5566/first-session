@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment Form </title>
-    <link rel="stylesheet" href="style.css">
+    <!--<link rel="stylesheet" href="style.css">-->
 </head>
 
 <body>
@@ -36,6 +36,17 @@
             <option value="rupay">rupay</option>
             <option value="mastercard">mastercard</option>       
         </select>
+        <p>
+            <fieldset>
+                <legend>
+                    Card type
+                </legend>
+                visa<input name="card type" type="checkbox">
+                mastercard<input name="card type" type="checkbox">
+                rupay<input name="card type" type="checkbox">
+                american express<input name="card type" type="checkbox">
+            </fieldset>
+        </p>
        </p>
        <p>Card Number:
         <input type="number" id="number" placeholder="Enter your card number" required>
