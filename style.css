@@ -60,3 +60,20 @@ input[type="submit"]{
  input[type="submit"]:hover{
     background-color: aquamarine;
  }
+
+ p{
+    color: #679297;
+    font-size: larger;
+    font-weight: bold;
+
+ }
+
+.cardtype1{
+    color: #386267;
+    width: 100%;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 3px;
+}
+ 
+
