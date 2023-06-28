@@ -13,21 +13,22 @@
         <h1 >Payment Form</h1>
         <hr>
         <h2>Contact Information</h2>
-        <p>Name:<input type="text" name="name" placeholder="Enter your Name" required > 
-        </p>
+        <span class="firstname">Name:<input type="text" name="name" placeholder="Enter your first Name" required > 
+        </span>
+        <span class="lastname">Name:<input type="text" name="name" class="lastname" placeholder="Enter your last Name" required></span>
         
-        <p>
+        <span>
         <fieldset>
             <legend>Gender</legend>
-              male <input name="Gender" type="radio" id="Gender"> female <input name="Gender" type="radio" id="Gender" required>
+              male <input name="Gender" type="radio" > female <input name="Gender" type="radio" required>
        </fieldset>
-        </p>
+    </span>
        <p>
         Address:
          <textarea name="Address" id="Address" cols="100" rows="8" placeholder="Enter your Address...." required></textarea>
        </p>
-       <p>Email: <input type="email" name="email" id="email" placeholder="Enter your Email" required></p>
-       <p>Pincode: <input type="number" name="number" id="pincode" placeholder="Enter your pincode" required></p>
+       <span class="email">Email: <input type="email" name="email" id="email" placeholder="Enter your Email" required></span>
+       <span class="pincode">Pincode: <input type="number" name="number" placeholder="Enter your pincode" required></span>
        <h2>Payment Information</h2>
        <p>Card Type:
         <select name="Card Type" id="card type" required>
